@@ -1,0 +1,72 @@
+{
+    "activityList" : [
+    {
+        "value":0,
+        "name":"All activities",
+        "icon":"None"
+    }, 
+    {
+        "value": 1,
+        "name":"biking",
+        "icon":"fas fa - motorcycle prog"
+    }, 
+    {
+        "value":2,
+        "name":"kiting ",
+        "icon":"fas.fa - skiing.prog"
+    }, 
+    {
+        "value": 3,
+        "name":"snowboarding",
+        "icon":"fas.fa - skiing.prog"
+    },
+    {
+        "value": 4,
+        "name":"cycling",
+        "icon":""
+    }, 
+    {
+        "value":5,
+        "name":"ice climbing",
+        "icon":""}, 
+    {
+        "value":6,
+        "name":"hockey",
+        "icon":""}, 
+    {
+        "value":7,
+        "name":"climbing",
+        "icon":""
+    },
+    {
+        "value":8,
+        "name":"body boarding",
+        "icon":""
+    }, 
+    {
+        "value":9,
+        "name":"powerbocking",
+        "icon":""
+    }, 
+    {
+        "value":10,
+        "name":"mountain boarding",
+        "icon":""
+    }, 
+    {
+        "value":11,
+        "name":"parasailing",
+        "icon":""
+    }, 
+    {
+        "value":12,
+        "name":"rafting",
+        "icon":""
+    }, 
+    {
+        "value":13,
+        "name":"bmx",
+        "icon":"fa fa - bicycle"
+    }
+    
+]}
