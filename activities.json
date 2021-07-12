@@ -28,7 +28,7 @@
     {
         "value":5,
         "name":"ice climbing",
-        "icon":"fa fa-mountain"}, 
+        "icon":"fas fa-skiing-nordic"}, 
     {
         "value":6,
         "name":"hockey",
@@ -42,17 +42,17 @@
     {
         "value":8,
         "name":"body boarding",
-        "icon":""
+        "icon":"fas fa-hard-hat"
     }, 
     {
         "value":9,
         "name":"powerbocking",
-        "icon":""
+        "icon":"fas fa-hard-hat"
     }, 
     {
         "value":10,
         "name":"mountain boarding",
-        "icon":""
+        "icon":"fas fa-hard-hat"
     }, 
     {
         "value":11,
@@ -62,7 +62,7 @@
     {
         "value":12,
         "name":"rafting",
-        "icon":""
+        "icon":"fas fa-hard-hat"
     }, 
     {
         "value":13,

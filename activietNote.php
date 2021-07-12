@@ -11,6 +11,7 @@
     $activity_arr = array();
 
     if (mysqli_num_rows($result) > 0) {
+      // output data of each row
       while($row = mysqli_fetch_assoc($result)) {
         $activity_arr[] =$row['activity_id'];
       }
@@ -122,7 +123,6 @@
 
     <div class="main-overviewProg">
     <a class="a-plus" href="newActivity.php">
-           <i class="bi bi-plus-circle-fill"></i>
     </a>
       <?php
         $activities = implode(",",$activity_arr);
@@ -140,6 +140,7 @@
         if($result != false){
 
           if (mysqli_num_rows($result) > 0) {
+          // output data of each row
           echo '<div class="continer">';
           echo '<h1 class="text-center text-success">Total Notes: '.count($activity_arr).'</h1>';
           echo '<div class="row text-center mt-3 mb-3 p-4 align-middle" >';
