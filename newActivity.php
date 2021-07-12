@@ -128,18 +128,8 @@
         <textarea id="w3review" name="note" rows="4" cols="35" require>
         </textarea>
         </label>
-
-
-
         <button type="submit" class="btn btn-success">Add Activity</button>
-
-
-
       </div>
-
-
-
-
 
     </div>
     <script src ="js/scripts.js"></script>

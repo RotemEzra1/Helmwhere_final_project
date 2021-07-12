@@ -89,13 +89,11 @@
         <p style="text-align:center"> OR  </p>
 
         
-        <!-- <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus=""> -->
 
 
         <input type="email" class="form-control" name="loginMail" id="loginMail"
             aria-describedby="emailHelp" placeholder="Enter Email" require/>
 
-        <!-- <input type="password" id="inputPassword" class="form-control" placeholder="Password" required=""> -->
 
         <input type="password" class="form-control" name="loginPass" id="loginPass"
             placeholder="Enter Password" require />
@@ -118,14 +116,6 @@
         </form>
         
         <form action="signUp.php" method="POST" class="form-signup">
-            <!-- <div class="social-login">
-                <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i> Sign up with Facebook</span> </button>
-            </div>
-            <div class="social-login">
-                <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i> Sign up with Google+</span> </button>
-            </div>
-            
-            <p style="text-align:center">OR</p> -->
 
             <input type="text" id="user-name" name="user_name" class="form-control" placeholder="User name" required autofocus="">
             <input type="email" id="user-email" name="email" class="form-control" placeholder="Email address" required autofocus="">

@@ -66,18 +66,7 @@
         }
 
 
-        
-    
     }
-
-
-
-    // if(!$status)
-    // {
-    //     $_SESSION["last_status"] = mysqli_error($connection);
-    //     header("Location: index.php?error=failed_to_signup");
-    // }
-
     
 ?>
 <?php
