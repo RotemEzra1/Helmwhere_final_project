@@ -130,16 +130,9 @@
         </textarea>
         </label>
 
-
-
         <button type="submit" class="btn btn-success">Add Activity</button>
 
-
-
       </div>
-
-
-
 
 
     </div>

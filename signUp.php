@@ -64,19 +64,9 @@
             header('Location: index.php?errorMesg=' . $errorMesg);
 
         }
-
-
-        
+     
     
     }
-
-
-
-    // if(!$status)
-    // {
-    //     $_SESSION["last_status"] = mysqli_error($connection);
-    //     header("Location: index.php?error=failed_to_signup");
-    // }
 
     
 ?>

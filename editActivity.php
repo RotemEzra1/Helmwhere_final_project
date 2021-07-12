@@ -12,10 +12,8 @@
       $sql = "SELECT * FROM tbl_activity_202 WHERE activity_id='".$_GET['activity_id']."'";
           
       $result = mysqli_query($connection , $sql); 
-     
   
       if (mysqli_num_rows($result) == 1) {
-        // output data of each row
         while($row = mysqli_fetch_assoc($result)) {
           $date = $row['date'];
           $activity_type = $row['activity_type'];
@@ -29,9 +27,6 @@
 
    
       if(isset($_POST['date'])) {
-
-       
-
 
           $sql = "UPDATE tbl_activity_202 
                   SET date='".$_POST['date']."', activity_type='".$_POST['activity_type'].
@@ -167,17 +162,8 @@
         </textarea>
         </label>
 
-
-                <button type="submit" class="btn btn-success">Update</button>
-
-
-
-
+            <button type="submit" class="btn btn-success">Update</button>
       </div>
-
-
-
-
 
     </div>
     <script src ="js/scripts.js"></script>

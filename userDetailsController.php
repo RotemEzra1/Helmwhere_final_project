@@ -11,7 +11,7 @@
 
 <!DOCTYPE html>
 
-<html lang="en">
+<html>
     <head>
         <meta charset="UTF-8">
         <title>userDetailsController</title>
@@ -38,14 +38,9 @@
                         "phone='$phone' " .
                         "WHERE user_id = $user_id";
 
-                // echo "SQL: " . $sql . "<br/>";    
 
                 $status = mysqli_query( $connection, $sql );
 
-                // echo "status: " . $status;
-                // die();
-
-                
 
                 return $status;      
             }
@@ -71,16 +66,6 @@
                 header("Location: index.php?error=failed_to_update_user_details");
             }
 
-           /* echo "<h1>$fname, your updated details are:</h1>" ;
-            echo "<h2> your first name is:" .$fname. "</h2>" ;
-            echo "<h2> your last name is:" .$lname. "</h2>" ;
-            echo "<h2> your Birth date  is:" .$date. "</h2>" ;
-            echo "<h2> your state  is:" .$location. "</h2>" ;
-            echo "<h2> your Email is:" .$email. "</h2>" ;
-            echo "<h2> your Gender is:" .$gender. "</h2>" ;
-            echo "<h2> your height is:" .$height. "</h2>" ;
-            echo "<h2> your Weight is:" .$weight. "</h2>" ;
-            echo "<h2> your age is:" .$age. "</h2>" ; */
 
 
             $_SESSION["user_full_name"] = $fname . " " . $lname;

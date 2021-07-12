@@ -11,7 +11,6 @@
     $activity_arr = array();
 
     if (mysqli_num_rows($result) > 0) {
-      // output data of each row
       while($row = mysqli_fetch_assoc($result)) {
         $activity_arr[] =$row['activity_id'];
       }
@@ -141,7 +140,6 @@
         if($result != false){
 
           if (mysqli_num_rows($result) > 0) {
-          // output data of each row
           echo '<div class="continer">';
           echo '<h1 class="text-center text-success">Total activities: '.count($activity_arr).'</h1>';
           
@@ -199,14 +197,9 @@
 
       ?>
         </div>
- 
-
 
       </div>
-
- 
 </div>
-
 
     <script src ="js/scripts.js"></script>
   </main>

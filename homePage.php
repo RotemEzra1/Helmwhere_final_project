@@ -1,12 +1,6 @@
 <?php
     session_start();
 
-
-    // echo '<pre>';
-    // echo "Session: ";
-    // var_dump($_SESSION);
-    // echo '</pre>';
-
       $user_name_exists = false;
     if( !empty($_SESSION["user_name"]) )
     {

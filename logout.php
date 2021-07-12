@@ -9,7 +9,6 @@
 
     header('Location: index.php');
 ?>
-
 <?php
   if ($connection)
   {
