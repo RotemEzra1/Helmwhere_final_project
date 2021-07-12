@@ -8,35 +8,36 @@
     {
         "value": 1,
         "name":"biking",
-        "icon":"fas fa - motorcycle prog"
+        "icon":"fas fa-motorcycle prog"
     }, 
     {
         "value":2,
         "name":"kiting ",
-        "icon":"fas.fa - skiing.prog"
+        "icon":"fas.fa-skiing.prog"
     }, 
     {
         "value": 3,
         "name":"snowboarding",
-        "icon":"fas.fa - skiing.prog"
+        "icon":"fas fa-snowboarding"
     },
     {
         "value": 4,
         "name":"cycling",
-        "icon":""
+        "icon":"fa fa-bicycle"
     }, 
     {
         "value":5,
         "name":"ice climbing",
-        "icon":""}, 
+        "icon":"fa fa-mountain"}, 
     {
         "value":6,
         "name":"hockey",
-        "icon":""}, 
+        "icon":"fa fa-hockey-puck"
+    }, 
     {
         "value":7,
         "name":"climbing",
-        "icon":""
+        "icon":"fa fa-mountain"
     },
     {
         "value":8,
@@ -56,7 +57,7 @@
     {
         "value":11,
         "name":"parasailing",
-        "icon":""
+        "icon":"fa fa-parachute-box"
     }, 
     {
         "value":12,
@@ -66,7 +67,7 @@
     {
         "value":13,
         "name":"bmx",
-        "icon":"fa fa - bicycle"
+        "icon":"fa fa-bicycle"
     }
     
 ]}

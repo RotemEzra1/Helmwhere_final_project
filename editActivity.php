@@ -90,19 +90,20 @@
       <i class="fas fa-times sidenav__brand-close"></i>
     </div>
     <nav>
-        <ul class="sidenav__list">
-        <li class="sidenav__list-item"><a href="homePage.php">Home</a></li>
-            <li class="sidenav__list-item"><a href="showDetails.php">Personal Information</a></li>
-            <li class="sidenav__list-item"><a class="active" href="progress.php">Activities</a></li>
-            <li class="sidenav__list-item"><a href="#">Inbox</a></li>
-            <li class="sidenav__list-item"><a href="#">Equipment Check</a></li>
-            <li class="sidenav__list-item"><a href="#">Emergency Contacts</a></li>
-            <li class="sidenav__list-item"><a href="#">Terms & Conditions</a></li>
-            <li class="sidenav__list-item"><a href="#">Privacy Policy</a></li>
-            <li class="sidenav__list-item"><a href="#">Setting</a></li>
-            <li class="sidenav__list-item"><a href="logout.php">Log Out</a></li>
-      </ul>
-    </nav>
+          <ul class="sidenav__list">
+          <li class="sidenav__list-item"><a href="homePage.php">Home</a></li>
+              <li class="sidenav__list-item"><a href="showDetails.php">Personal Information</a></li>
+              <li class="sidenav__list-item"><a class="active" href="progress.php">Activities</a></li>
+              <li class="sidenav__list-item"><a href="activietNote.php">Notes</a></li>
+              <li class="sidenav__list-item"><a href="#">Inbox</a></li>
+              <li class="sidenav__list-item"><a href="#">Equipment Check</a></li>
+              <li class="sidenav__list-item"><a href="#">Emergency Contacts</a></li>
+              <li class="sidenav__list-item"><a href="#">Terms & Conditions</a></li>
+              <li class="sidenav__list-item"><a href="#">Privacy Policy</a></li>
+              <li class="sidenav__list-item"><a href="#">Setting</a></li>
+              <li class="sidenav__list-item"><a href="logout.php">Log Out</a></li>
+        </ul>
+      </nav>
   </aside>
 
   <main class="main">

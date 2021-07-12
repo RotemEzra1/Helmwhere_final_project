@@ -66,8 +66,8 @@
           <ul class="sidenav__list">
           <li class="sidenav__list-item"><a href="homePage.php">Home</a></li>
               <li class="sidenav__list-item"><a href="showDetails.php">Personal Information</a></li>
-              <li class="sidenav__list-item"><a class="active" href="progress.php">Activities</a></li>
-              <li class="sidenav__list-item"><a href="activietNote.php">Notes</a></li>
+              <li class="sidenav__list-item"><a href="progress.php">Activities</a></li>
+              <li class="sidenav__list-item"><a class="active" href="activietNote.php">Notes</a></li>
               <li class="sidenav__list-item"><a href="#">Inbox</a></li>
               <li class="sidenav__list-item"><a href="#">Equipment Check</a></li>
               <li class="sidenav__list-item"><a href="#">Emergency Contacts</a></li>
@@ -143,68 +143,46 @@
           if (mysqli_num_rows($result) > 0) {
           // output data of each row
           echo '<div class="continer">';
-          echo '<h1 class="text-center text-success">Total activities: '.count($activity_arr).'</h1>';
+          echo '<h1 class="text-center text-success">Total Notes: '.count($activity_arr).'</h1>';
+          echo '<div class="row text-center mt-3 mb-3 p-4 align-middle" >';
           
           while($row = mysqli_fetch_assoc($result)) {
-            ?>
+            ?>         
+                <div class="col-lg-4">
+                    <div class="alert alert-success">
 
-            <div class="row text-center bg-light mt-3 mb-3 p-4 align-middle" >
+                        <div class="alert-heading">
 
-              <div class="col-4">
-        
-              <?php $i = (int)$row['activity_type']; ?>
-          
-              <?php $ar = $json['activityList'][$i];?>
-              
-              
-              <i class="<?php echo $ar['icon']; ?> fa-4x"></i>
-             
-              </div>
-
-              <div class="col-4">
-              <?php echo $row['distance'] . " KM"; ?>
-                <br>
-                <?php echo $row['time'] ; ?>
-                <br>
-                <?php echo $row['kcal'] . " KCAL"; ?>
-
-
-              </div>
-
-              <div class="col-4">
-              <a href="editActivity.php?activity_id=<?php echo $row['activity_id']; ?>">
-                 <?php echo $row['date']; ?>
-              <i class="bi bi-pencil-fill line1"></i>
-              </a>
-              <br>
-              <a class="confirmation" href="activityDelete.php?activity_id=<?php echo $row['activity_id']; ?>" >
+                            <?php $i = (int)$row['activity_type']; ?>
+                    
+                            <?php $ar = $json['activityList'][$i];?>
+                    
+                            <i class="<?php echo $ar['icon']; ?> fa-4x"></i>
                             
-                <i class="bi bi-trash-fill"></i>
-              </a>
+                        </div>
+                        <div>
+                            <p><strong >Date: </strong><?php echo $row['date']; ?> </p>
 
-              </div>
-
-            </div>
-            
-
+                            <p ><strong>Note:</strong><?php echo $row['note']; ?></p>
+                            <hr>
+                            <a href="editActivity.php?activity_id=<?php echo $row['activity_id']; ?>">
+                                Edit Activity
+                            <i class="bi bi-pencil-fill line1"></i>
+          </a>
+                        </div>
+                    </div>
+                 </div>             
             <?php
           }
-          echo '</div>';
+          echo '</div> </div>';
         }
       }else{
         echo '<h1 class="activ-empty text-center text-success">No Activities';
         echo "</h1>";
-
       }
-
       ?>
         </div>
- 
-
-
       </div>
-
- 
 </div>
 
 

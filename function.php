@@ -13,6 +13,12 @@
             while($row = mysqli_fetch_assoc($result)) {
 
                 session_unset();
+                // unset($_SESSION["user_login"]);
+                // unset($_SESSION["user_id"]);
+                // unset($_SESSION["user_name"]);
+                // unset($_SESSION["user_email"]);
+                // unset($_SESSION["user_picture"]);
+                // unset($_SESSION["user_full_name"]);
 
                 $_SESSION["user_login"] = 'true';//user_login
                 $_SESSION["user_id"] = $user_id;
